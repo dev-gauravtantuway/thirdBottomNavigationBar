@@ -22,8 +22,6 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
-      appBar: AppBar(brightness: Brightness.dark),
-      body: null,
       bottomNavigationBar: Container(
         margin: EdgeInsets.all(20),
         height: screenWidth * .155,
