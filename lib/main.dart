@@ -8,12 +8,6 @@ void main() {
       home: HomePage(),
     ),
   );
-  SystemChrome.setSystemUIOverlayStyle(
-    SystemUiOverlayStyle(
-      systemNavigationBarColor: Colors.transparent,
-      systemNavigationBarDividerColor: Colors.transparent,
-    ),
-  );
 }
 
 class HomePage extends StatefulWidget {
